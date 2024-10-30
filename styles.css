@@ -1,0 +1,54 @@
+body {
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.post{
+    width: 450px;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    margin: px;
+}
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.izquierda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.post-iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+}
+p {
+    margin: 10px;
+}
+
+.icono-html {
+    margin-top: 10px;
+}
+.icono-hamburguesa {
+    margin-top: 15px;
+}
+
+
+
+
